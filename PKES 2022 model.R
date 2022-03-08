@@ -12,7 +12,7 @@
 # alpha0w = 23 (instead of 5) under the baseline scenario; 
 # alpha0w = 24 (instead of 7) under scenario 1;
 # alpha0z = 2.5 (instead of 5) under the baseline scenario; 
-# alpha0z = 3.5 (instead of 7) under scenario 1;
+# alpha0z = 3.5 (instead of 7) under scenario 1.
 # 
 # The above changes are necessary to keep vz from falling below 0 under the
 # steady state, while matching Model BMW baseline values. Notice that qualitative
