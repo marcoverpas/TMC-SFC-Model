@@ -164,7 +164,7 @@ for (j in 1:nScenarios){
       if (j==6){iota[j,i]=0}
       
       
-      #STEP 5: Model     
+      #Model equations     
       
       #Households: workers and capitalists
       ydw[j,i] = wb[j,i] + paymw_m[j,i] + paymw_b[j,i]                         #Disposable income of workers
@@ -315,7 +315,7 @@ plot(p[3,2:100],type="l",col=2,lwd=2,lty=1,font.main=1.5,cex.main=1.5,cex.axis=1
 legend("bottomright",c("Unit price of output"),  bty = "n", cex = 1.5, lty=c(1), lwd=c(2), col = c(2), box.lwd=0)
 
 #Figure 3d
-plot(100*cw_r[3,2:100]/cw_r[1,2:100],type="l",col="purple",lwd=2,lty=1,font.main=1.5,cex.main=1.5,cex.axis=1.5,cex.lab=1.5,main="(d) Real consumption for workers",ylab = 'Index',xlab = '',ylim=range(100,115))
+plot(100*cw_r[3,2:100]/cw_r[1,2:100],type="l",col="purple",lwd=2,lty=1,font.main=1.5,cex.main=1.5,cex.axis=1.5,cex.lab=1.5,main="(d) Real consumption of workers",ylab = 'Index',xlab = '',ylim=range(100,115))
 lines(100*cw_r_t[3,2:100]/cw_r_t[1,2:100],type="l",col="orange",lwd=2,lty=2)
 lines(100*cw_r_t[3,2:100]/cw_r_t[1,2:100],type="l",col="red1",lwd=2,lty=3)
 legend("right",c("Actual","Expected","Planned"),  bty = "n", cex = 1.5, lty=c(1,2,3), lwd=c(2,2,2), col = c("purple","orange","red1"), box.lwd=0)
